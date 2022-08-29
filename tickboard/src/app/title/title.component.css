@@ -1,10 +1,18 @@
+.td-head {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
 .dropbtn {
     background-color: black;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    min-width: 500px;
+    min-width: 400px;
+    font-family: Tahoma;
+    font-size: 1.2rem;
 }
 
 .dropdown {
@@ -18,6 +26,8 @@
     background-color: lightgrey;
     min-width: 200px;
     z-index: 1;
+    font-family: Tahoma;
+    font-size: 1.2rem;
 }
 
 .dropdown-content a {
@@ -31,13 +41,30 @@
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
 
-.withBackground {
+.bg-big-picture {
     background-image: url('../../assets/water_mill.jpg');
     min-width: 500px;
     min-height: 500px;
 }
 
-.bigText {
+.footer-text {
+    background-color: white;
+    color: rgb(86, 85, 85);
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}
+
+.footer-line {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.tab {
+    border-collapse:collapse;
+}
+
+.big-text {
     color: white;
     font-family: Tahoma;
     text-align: center;
@@ -47,3 +74,6 @@
     padding-top: 20px;
 }
 
+.round-image {
+    border-radius: 50%;
+}
