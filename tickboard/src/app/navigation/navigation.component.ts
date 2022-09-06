@@ -9,19 +9,48 @@ import { Router } from '@angular/router';
 export class NavigationComponent implements OnInit {
 
   private router: Router;
-  hidden: boolean;
-
+  
   constructor(router: Router) { 
     this.router = router;
-    this.hidden = false;
   }
 
   ngOnInit(): void {
   }
 
+  nav2alpineDayData() {
+    this.router.navigate(['../record-a-day','alpine-climbing'])  
+  }
+
+  nav2sportDayData() {
+    this.router.navigate(['../record-a-day','sport-climbing'])  
+  }
+
+  nav2boulderingDayData() {
+    this.router.navigate(['../record-a-day','bouldering'])  
+  }
+
   nav2singlePitchData() {
     this.router.navigate(['../record-a-route','single-pitch'])  
-    this.hidden = true;
+  }
+
+  nav2multiPitchData() {
+    this.router.navigate(['../record-a-route','multi-pitch'])  
+  }
+
+  nav2boulderData() {
+    this.router.navigate(['../record-a-route','boulder'])  
+  }
+
+  nav2selectAllClimbs() {
+    this.router.navigate(['../select-data','all-climbs'])  
+  }
+
+  nav2selectClimbsOfDay() {
+    this.router.navigate(['../select-data','climbs-of-a-day'])  
+  }
+
+  nav2selectClimbsOfGrade() {
+    this.router.navigate(['../select-data','climbs-of-a-grade'])  
   }
 
   nav2landingpage() {

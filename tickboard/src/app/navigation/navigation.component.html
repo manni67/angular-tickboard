@@ -9,9 +9,9 @@
                 <div class="dropdown">
                     <button class="dropbtn">Klettertag erfassen</button>
                     <div class="dropdown-content">  
-                        <button class="dropdownbtn">Sportklettertag</button>
-                        <button class="dropdownbtn">Alpinklettertag</button>
-                        <button class="dropdownbtn">Bouldertag</button>
+                        <button (click)="nav2sportDayData()" class="dropdownbtn">Sportklettertag</button>
+                        <button (click)="nav2alpineDayData()" class="dropdownbtn">Alpinklettertag</button>
+                        <button (click)="nav2boulderingDayData()" class="dropdownbtn">Bouldertag</button>
                     </div>
                 </div>
             </td>
@@ -19,10 +19,10 @@
                 <div class="dropdown">
                     <button class="dropbtn">Route erfassen</button>
                     <!-- hidden does not work -> style (hover, non hover) over rules it!! -->
-                    <div class="dropdown-content"  [hidden]="hidden">  
+                    <div class="dropdown-content">  
                         <button (click)="nav2singlePitchData()" class="dropdownbtn">Einseillängentour</button>
-                        <button class="dropdownbtn">Mehrsellängentour</button>
-                        <button class="dropdownbtn">Boulder</button>
+                        <button (click)="nav2multiPitchData()" class="dropdownbtn">Mehrseillängentour</button>
+                        <button (click)="nav2boulderData()" class="dropdownbtn">Boulder</button>
                     </div>
                 </div>
             </td>
@@ -30,9 +30,9 @@
                 <div class="dropdown">
                     <button class="dropbtn">Routen anschauen & auswerten</button>
                     <div class="dropdown-content">  
-                        <button class="dropdownbtn">alle Touren</button>
-                        <button class="dropdownbtn">bestimmter Tag</button>
-                        <button class="dropdownbtn">bestimmte Grad</button>
+                        <button (click)="nav2selectAllClimbs()" class="dropdownbtn">alle Touren</button>
+                        <button (click)="nav2selectClimbsOfDay()" class="dropdownbtn">bestimmter Tag</button>
+                        <button (click)="nav2selectClimbsOfGrade()" class="dropdownbtn">bestimmter Grad</button>
                     </div>
                 </div>
             </td>
