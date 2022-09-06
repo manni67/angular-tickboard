@@ -7,6 +7,31 @@
 
 .round-image {
     border-radius: 50%;
+    background-image: url(../../assets/geier.jpg); 
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-position: center;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.dropdownbtn {
+    border: none;
+    background-color: lightgrey;
+    position: relative;
+    display: block;
+    min-width: 200px;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    text-align: left;
+}
+
+.dropdownbtn:hover {
+    background-color: white;
 }
 
 .dropbtn {

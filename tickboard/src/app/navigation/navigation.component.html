@@ -3,37 +3,38 @@
     <thead>
         <tr>
             <td class="td-head" width="10%">
-                <img class="round-image" width="100px" height="100px" src="assets/geier.jpg" alt="fallback"/>
+                <button (click)="nav2landingpage()" class="round-image"></button>
             </td>
             <td class="td-head" width="30%">
                 <div class="dropdown">
                     <button class="dropbtn">Klettertag erfassen</button>
-                <div class="dropdown-content">  
-                    <a href="https://www.google.com">Google</a>
-                    <a href="https://www.facebook.com">Facebook</a>
-                    <a href="https://www.youtube.com">YouTube</a>
+                    <div class="dropdown-content">  
+                        <button (click)="nav2sportDayData()" class="dropdownbtn">Sportklettertag</button>
+                        <button (click)="nav2alpineDayData()" class="dropdownbtn">Alpinklettertag</button>
+                        <button (click)="nav2boulderingDayData()" class="dropdownbtn">Bouldertag</button>
+                    </div>
                 </div>
-              </div>
             </td>
             <td class="td-head" width="30%">
                 <div class="dropdown">
                     <button class="dropbtn">Route erfassen</button>
-                <div class="dropdown-content">  
-                    <a href="https://www.google.com">Google</a>
-                    <a href="https://www.facebook.com">Facebook</a>
-                    <a href="https://www.youtube.com">YouTube</a>
+                    <!-- hidden does not work -> style (hover, non hover) over rules it!! -->
+                    <div class="dropdown-content">  
+                        <button (click)="nav2singlePitchData()" class="dropdownbtn">Einseillängentour</button>
+                        <button (click)="nav2multiPitchData()" class="dropdownbtn">Mehrseillängentour</button>
+                        <button (click)="nav2boulderData()" class="dropdownbtn">Boulder</button>
+                    </div>
                 </div>
-              </div>
             </td>
             <td class="td-head" width="30%">
                 <div class="dropdown">
                     <button class="dropbtn">Routen anschauen & auswerten</button>
-                <div class="dropdown-content">  
-                    <a href="https://www.google.com">Google</a>
-                    <a href="https://www.facebook.com">Facebook</a>
-                    <a href="https://www.youtube.com">YouTube</a>
+                    <div class="dropdown-content">  
+                        <button (click)="nav2selectAllClimbs()" class="dropdownbtn">alle Touren</button>
+                        <button (click)="nav2selectClimbsOfDay()" class="dropdownbtn">bestimmter Tag</button>
+                        <button (click)="nav2selectClimbsOfGrade()" class="dropdownbtn">bestimmter Grad</button>
+                    </div>
                 </div>
-              </div>
             </td>
         </tr>
     </thead>
