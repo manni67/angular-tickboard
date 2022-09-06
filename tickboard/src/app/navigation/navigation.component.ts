@@ -9,9 +9,11 @@ import { Router } from '@angular/router';
 export class NavigationComponent implements OnInit {
 
   private router: Router;
+  hidden: boolean;
 
   constructor(router: Router) { 
     this.router = router;
+    this.hidden = false;
   }
 
   ngOnInit(): void {
@@ -19,5 +21,10 @@ export class NavigationComponent implements OnInit {
 
   nav2singlePitchData() {
     this.router.navigate(['../record-a-route','single-pitch'])  
+    this.hidden = true;
+  }
+
+  nav2landingpage() {
+    this.router.navigate(['../','landingpage'])
   }
 }

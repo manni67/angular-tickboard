@@ -3,37 +3,38 @@
     <thead>
         <tr>
             <td class="td-head" width="10%">
-                <img class="round-image" width="100px" height="100px" src="assets/geier.jpg" alt="fallback"/>
+                <button (click)="nav2landingpage()" class="round-image"></button>
             </td>
             <td class="td-head" width="30%">
                 <div class="dropdown">
                     <button class="dropbtn">Klettertag erfassen</button>
-                <div class="dropdown-content">  
-                    <button class="dropdownbtn">Einseillängentour</button>
-                    <button class="dropdownbtn">Einseillängentour2</button>
-                    <button class="dropdownbtn">Einseillängentour3</button>
+                    <div class="dropdown-content">  
+                        <button class="dropdownbtn">Sportklettertag</button>
+                        <button class="dropdownbtn">Alpinklettertag</button>
+                        <button class="dropdownbtn">Bouldertag</button>
+                    </div>
                 </div>
-              </div>
             </td>
             <td class="td-head" width="30%">
                 <div class="dropdown">
                     <button class="dropbtn">Route erfassen</button>
-                <div class="dropdown-content">  
-                    <button (click)="nav2singlePitchData()" class="dropdownbtn">Einseillängentour</button>
-                    <button class="dropdownbtn">Einseillängentour2</button>
-                    <button class="dropdownbtn">Einseillängentour3</button>
+                    <!-- hidden does not work -> style (hover, non hover) over rules it!! -->
+                    <div class="dropdown-content"  [hidden]="hidden">  
+                        <button (click)="nav2singlePitchData()" class="dropdownbtn">Einseillängentour</button>
+                        <button class="dropdownbtn">Mehrsellängentour</button>
+                        <button class="dropdownbtn">Boulder</button>
+                    </div>
                 </div>
-              </div>
             </td>
             <td class="td-head" width="30%">
                 <div class="dropdown">
                     <button class="dropbtn">Routen anschauen & auswerten</button>
-                <div class="dropdown-content">  
-                    <button class="dropdownbtn">Einseillängentour</button>
-                    <button class="dropdownbtn">Einseillängentour2</button>
-                    <button class="dropdownbtn">Einseillängentour3</button>
+                    <div class="dropdown-content">  
+                        <button class="dropdownbtn">alle Touren</button>
+                        <button class="dropdownbtn">bestimmter Tag</button>
+                        <button class="dropdownbtn">bestimmte Grad</button>
+                    </div>
                 </div>
-              </div>
             </td>
         </tr>
     </thead>
