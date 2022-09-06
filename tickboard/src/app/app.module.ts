@@ -29,6 +29,7 @@ import { ClimbsOfAGradeComponent } from './select-data/climbs-of-a-grade/climbs-
     AllClimbsComponent,
     ClimbsOfADayComponent,
     ClimbsOfAGradeComponent
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
