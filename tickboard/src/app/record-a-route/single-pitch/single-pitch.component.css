@@ -1,0 +1,78 @@
+table {
+    table-layout:fixed;
+    width: 1500px;
+    height: 100%;
+}
+
+.placeholder {
+    height: 50px;
+}
+
+.div_main {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.div_left {
+    float: left;
+}
+
+.div_next {
+    padding-left: 20px;
+    float: left;
+}
+
+.input_text {
+    width: 300px;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}
+
+.input_multi_text {
+    width: 800px;
+    height: 250px;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}
+
+.input_date {
+    width: 200px;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}
+
+.input_button {
+    width: 150px;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 1.4rem;
+}
+
+.select_short {
+    width: 80px;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}
+
+.select_middle {
+    width: 170px;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}
+.label {
+    display: block; 
+    float: left; 
+    width: 130px;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}
+
+.label_next {
+    display: block; 
+    float: left; 
+    padding-right: 10px;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+}

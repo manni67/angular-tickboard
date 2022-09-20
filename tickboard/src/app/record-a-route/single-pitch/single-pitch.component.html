@@ -1,1 +1,114 @@
-<p>single-pitch works!</p>
+<!-- record a single pitch route -->
+<table class="table">
+    <tbody>
+        <tr>
+            <div class="placeholder"></div>
+        </tr>
+        <!-- Date -->
+        <tr>
+            <div class="div_main">
+                <label class="label">Datum</label>
+                <input class="input_date" type="date" name="date"/>
+            </div>
+        </tr>
+        <!-- Country -->
+        <tr>
+            <div class="div_main">
+                <label class="label">Land</label>
+                <input class="input_text" type="text" name="country"/>
+            </div>
+        </tr>
+        <tr>
+            <!-- Name of climbing spot -->
+            <div class="div_main">
+                <div class="div_left">
+                    <label class="label">Klettergebiet</label>
+                    <input class="input_text" type="text" name="climbing_spot"/>
+                </div>
+                <div class="div_next">
+                    <!-- Name of rock -->
+                    <label class="label_next">Felsen</label>
+                    <input class="input_text" type="text" name="rock"/>
+                </div>
+                <div class="div_next">
+                    <!-- Name of sector -->
+                    <label class="label_next">Sektor</label>
+                    <input class="input_text" type="text" name="sector"/>
+                </div>    
+            </div>
+        </tr>
+        <tr>
+            <div class="div_main">
+                <!-- Name of route -->
+                <div class="div_left">
+                    <label class="label">Routenname</label>
+                    <input class="input_text" type="text" name="route"/>
+                </div>
+                <!-- Grade -->
+                <div class="div_next">
+                    <label class="label_next">Schwierigkeit</label>
+                    <select class="select_short" name="grade">
+                        <option>4-</option>
+                        <option>4</option>
+                        <option>4+</option>
+                        <option>5-</option>
+                        <option>5</option>
+                        <option>5+</option>
+                        <option>6-</option>
+                        <option>6</option>
+                        <option>6+</option>
+                        <option>7-</option>
+                        <option>7</option>
+                        <option>7+</option>
+                        <option>8-</option>
+                        <option>8</option>
+                        <option>8+</option>
+                        <option>9-</option>
+                        <option>9</option>
+                        <option>9+</option>
+                        <option>10-</option>
+                        <option>10</option>
+                        <option>10+</option>
+                        <option>11-</option>
+                        <option>11</option>
+                        <option>11+</option>
+                        <option>12-</option>
+                    </select>
+                </div>
+                <!-- Style of ascend -->
+                <div class="div_next">
+                    <label class="label_next">Begehungsstil</label>
+                    <select class="select_middle" name="style">
+                        <option>OS (On Sight)</option>
+                        <option>Flash</option>
+                        <option>RP (Rotpunkt)</option>
+                        <option>AF (alles frei)</option>
+                        <option>Top Rope</option>
+                    </select>
+                </div>
+                <!-- beauty of route -->
+                <div class="div_next">
+                    <label class="label_next">Schönheit</label>
+                    <select class="select_short" name="style">
+                        <option>-</option>
+                        <option>*</option>
+                        <option>**</option>
+                        <option>***</option>
+                        <option>****</option>
+                    </select>
+                </div>
+            </div>
+        </tr>
+        <tr>
+            <div class="div_main">
+                <label class="label">Kommentar</label>
+                <textarea class="input_multi_text" name="comment" placeholder="Deine Beschreibung"></textarea>
+            </div>
+        </tr>
+     </tbody>
+    <tfoot>
+        <div class="div_main">
+            <input class="input_button" value="Save" type="button" name="save"/>
+        </div>
+    </tfoot>
+</table>
