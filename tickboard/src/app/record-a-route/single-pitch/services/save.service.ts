@@ -7,6 +7,7 @@ export class SaveService {
 
   constructor() { }
 
+  /** Transfer data to the server for processing the next steps (saving data in the database) */
   public save(country: String, date: String, climbingSpot: String, crag: String, sector: String, 
               route: String, grade: String, style: String, beauty: String, comment: String): boolean {
     console.log(date);
