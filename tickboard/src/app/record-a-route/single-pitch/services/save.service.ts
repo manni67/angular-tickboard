@@ -5,6 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class SaveService {
 
+  /** default constructor */
   constructor() { }
 
   /** Transfer data to the server for processing the next steps (saving data in the database) */
