@@ -2,12 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { SaveService } from './services/save.service';
 
+// Test comment0
 @Component({
   selector: 'app-single-pitch',
   templateUrl: './single-pitch.component.html',
   styleUrls: ['./single-pitch.component.css']
 })
 
+// Test comment1
 export class SinglePitchComponent implements OnInit {
 
   private saveService: SaveService;
