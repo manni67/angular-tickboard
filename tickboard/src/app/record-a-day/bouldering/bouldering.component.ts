@@ -10,6 +10,7 @@ export class BoulderingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // nothing todo
   }
 
 }
