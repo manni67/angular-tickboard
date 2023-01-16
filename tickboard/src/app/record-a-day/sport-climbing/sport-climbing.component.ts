@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sport-climbing.component.css']
 })
 export class SportClimbingComponent implements OnInit {
-  // Test aa
-  constructor() { }
+  
+  constructor() { 
+    // nothing todo
+  }
 
   ngOnInit(): void {
   }
