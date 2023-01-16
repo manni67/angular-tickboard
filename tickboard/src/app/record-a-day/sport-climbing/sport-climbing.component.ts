@@ -10,6 +10,7 @@ export class SportClimbingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // nothing to comment
   }
 
 }
