@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ClimbsOfAGradeComponent } from './climbs-of-a-grade.component';
 
+// Comment B
 describe('ClimbsOfAGradeComponent', () => {
   let component: ClimbsOfAGradeComponent;
   let fixture: ComponentFixture<ClimbsOfAGradeComponent>;
