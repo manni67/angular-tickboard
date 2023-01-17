@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClimbsOfAGradeComponent implements OnInit {
 
-  // comment A
+  // comment c
   constructor() { }
 
   ngOnInit(): void {
