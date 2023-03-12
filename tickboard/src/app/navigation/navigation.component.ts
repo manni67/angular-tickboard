@@ -15,6 +15,7 @@ export class NavigationComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    // nothing to do, empty
   }
 
   nav2alpineDayData() {
